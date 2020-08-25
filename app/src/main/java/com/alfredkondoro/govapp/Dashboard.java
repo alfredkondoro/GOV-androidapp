@@ -7,9 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.alfredkondoro.govapp.Maids.Ayo;
-
-public class Dashboard extends AppCompatActivity implements View.OnClickListener{
+public class Dashboard extends AppCompatActivity{
 
     TextView first, second, third, fourth, fifth, sixth, seventh, eigth;
     @Override
@@ -25,13 +23,14 @@ public class Dashboard extends AppCompatActivity implements View.OnClickListener
         sixth = (TextView) findViewById (R.id.sixthmaid);
         seventh = (TextView) findViewById (R.id.seventhmaid);
         eigth = (TextView) findViewById (R.id.eigthmaid);
+
+        first.setOnClickListener (new View.OnClickListener () {
+            @Override
+            public void onClick(View view) {
+                Intent first = new Intent (Dashboard.this, AyoActivity.class);
+                startActivity (first);
+            }
+        });
     }
 
-    @Override
-    public void onClick(View view) {
-        if (view == first){
-            Intent first = new Intent(Dashboard.this, Ayo.class);
-            startActivity (first);
-        }
-    }
 }

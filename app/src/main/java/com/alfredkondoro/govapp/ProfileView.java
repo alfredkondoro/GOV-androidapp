@@ -1,16 +1,14 @@
-package com.alfredkondoro.govapp.Maids;
+package com.alfredkondoro.govapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.alfredkondoro.govapp.R;
-
-public class Ayo extends AppCompatActivity {
+public class ProfileView extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate (savedInstanceState);
-        setContentView (R.layout.activity_ayo);
+        setContentView (R.layout.activity_profile_view);
     }
 }
