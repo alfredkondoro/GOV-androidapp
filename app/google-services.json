@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "992000025279",
+    "firebase_url": "https://gov-androidapp.firebaseio.com",
+    "project_id": "gov-androidapp",
+    "storage_bucket": "gov-androidapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992000025279:android:bcef9678a57dcc784a9c0a",
+        "android_client_info": {
+          "package_name": "com.alfredkondoro.govapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992000025279-4r1921andva7of500fcfubs4imq06u5k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFfvKGEgNzbTUbdysJQITTsaEN8uTVM1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "992000025279-4r1921andva7of500fcfubs4imq06u5k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
