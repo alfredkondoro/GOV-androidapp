@@ -50,7 +50,7 @@ public class Register extends AppCompatActivity {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if(!task.isSuccessful()){
-                                Toast.makeText(Register.this,"SignUp Unsuccessful, Please Try Again",Toast.LENGTH_SHORT).show();
+                                Toast.makeText(Register.this,"SignUp Unsuccessful, Please Try Again"+task.getException (),Toast.LENGTH_SHORT).show();
                             }
                             else {
                                 startActivity(new Intent (Register.this, Login.class));

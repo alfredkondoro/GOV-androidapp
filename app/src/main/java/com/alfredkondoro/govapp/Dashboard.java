@@ -27,10 +27,12 @@ public class Dashboard extends AppCompatActivity{
         first.setOnClickListener (new View.OnClickListener () {
             @Override
             public void onClick(View view) {
-                Intent first = new Intent (Dashboard.this, AyoActivity.class);
+                    Intent first = new Intent (Dashboard.this, ProfileView.class);
                 startActivity (first);
             }
+
         });
+
     }
 
 }
